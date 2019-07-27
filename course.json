@@ -1,0 +1,153 @@
+{
+  "version": "1",
+  "title": "R语言统计建模与分析基础",
+  "author": "admin",
+  "description": "数据源连接 数据查看 数据切片 数据编辑 描述性统计 点图和条形图 直方图和核密度图 箱线图 Hexbin图 散点图矩阵 1 ",
+  "scenarios": [
+    {
+      "title": "实验一：数据源连接",
+             "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验一：数据源连接",
+          "text": "scenarios/实验一：数据源连接.md",
+          "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验二：数据查看",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验二：数据查看",
+          "text": "scenarios/实验二：数据查看.md",
+	          "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验三：数据切片",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+
+          "title": "实验三：数据切片",
+          "text": "scenarios/实验三：数据切片.md",
+ 	   "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验四：数据编辑",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验四：数据编辑",
+          "text": "scenarios/实验四：数据编辑.md",
+	"program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+		
+        }
+      ]
+    },
+    {
+      "title": "实验五：描述性统计",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验五：描述性统计",
+          "text": "scenarios/实验五：描述性统计.md",
+	  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验六：点图和条形图",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验六：点图和条形图",
+          "text": "scenarios/实验六：点图和条形图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验七：直方图和核密度图",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验七：直方图和核密度图",
+          "text": "scenarios/实验七：直方图和核密度图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验八：箱线图",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验八：箱线图",
+          "text": "scenarios/实验八：箱线图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验九：Hexbin图",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验九：Hexbin图",
+          "text": "scenarios/实验九：Hexbin图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十：散点图矩阵",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "实验十：散点图矩阵",
+          "text": "scenarios/实验十：散点图矩阵.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "1",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
+      "steps": [
+        {
+          "title": "1",
+          "text": "scenarios/1.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    }
+  ]
+}
