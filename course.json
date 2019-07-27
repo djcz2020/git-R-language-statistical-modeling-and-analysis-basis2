@@ -135,19 +135,6 @@
 	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
-    },
-    {
-      "title": "1",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
-	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
-      "steps": [
-        {
-          "title": "1",
-          "text": "scenarios/1.md",
-		  "program": "scripts/pre.sh",
-	   "extraTab": "[domain]:[:5678]/desktop.html"
-        }
-      ]
     }
   ]
 }
